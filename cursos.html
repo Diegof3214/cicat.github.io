@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursos - CICAT Ingenieros</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        header {
+            background-color: #7c2b1d;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 5px solid #3b1a1b;
+            color: white;
+        }
+
+        header img {
+            max-width: 200px;
+            height: auto;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-left: 10px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            background-color: #C4A484;
+            color: #333;
+            padding: 8px 12px;
+            border-radius: 5px;
+            font-weight: bold;
+            display: block;
+        }
+
+        nav ul li a:hover {
+            background-color: #A77B5A;
+        }
+
+        .main-container {
+            display: flex;
+            gap: 20px; /* Espaciado entre los elementos */
+            margin-top: 20px;
+        }
+
+        .content {
+            width: 65%; /* Ajusta el ancho según sea necesario */
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .sidebar {
+            width: 30%; /* Ajusta el ancho según sea necesario */
+            background-color: #fff;
+            border-left: 2px solid #7c2b1d;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .new-courses {
+            width: 65%; /* Igual al ancho de .content */
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin-top: 20px; /* Espaciado entre el .content y los nuevos cursos */
+        }
+
+        h2 {
+            color: #7c2b1d;
+        }
+
+        footer {
+            background-color: #7c2b1d;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+            margin-top: 20px;
+            border-top: 5px solid #3b1a1b;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="logo.png" alt="CICAT Ingenieros">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="cursos.html">Cursos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="main-container">
+            <div class="content">
+                <h2>Programa de Especialización en Microautomation</h2>
+                <p><strong>Presentación:</strong></p>
+                <p>Los sistemas de automatización industrial...</p>
+                <p><strong>Objetivos:</strong></p>
+                <p>Al finalizar el programa...</p>
+            </div>
+            <div class="sidebar">
+                <h2>Cursos:</h2>
+                <ul>
+                    <li>Electricidad Automatismos y Esquemas Eléctricos</li>
+                    <li>Programación de PLCS Nivel I</li>
+                    <li>Programación de PLCS Nivel II</li>
+                    <li>Configuración de Sistemas SCADA</li>
+                </ul>
+            </div>
+        </div>
+        <div class="new-courses">
+            <h2>Nuevos Cursos:</h2>
+            <ul>
+                <li>Curso 1</li>
+                <li>Curso 2</li>
+            </ul>
+        </div>
+        <footer>
+            <p>Centro de Investigación y Capacitación en Automática y Telemática</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
